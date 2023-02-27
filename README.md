@@ -1,2 +1,2 @@
-# kassieren
-kasse
+# kassieren.js
+kasss
