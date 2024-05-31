@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kassenrechner</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="kasse.js" defer></script>
+</head>
+<body>
+    <section>
+    <h1>Kassenrechner</h1>
+    <div class="kassen-container">
+        <input type="number" id="preis" placeholder="Preis in Euro">
+        <input type="number" id="bargeld" placeholder="Gezahlter Betrag in Euro">
+        <button onclick="zeigeWechselgeld()">Wechselgeld berechnen</button>
+    </div>
+    <div id="wechselgeld-details"></div>
+</section>
+</body>
+</html>
